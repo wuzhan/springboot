@@ -6,3 +6,17 @@ server:
 student:
   name: wuzhan
   age: 32
+
+#邮箱的账号
+spring:
+  mail:
+    host: smtp.qq.com
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+        starttls:
+          enable: true
+          required: true
+    username: 1321331107@qq.com
