@@ -36,7 +36,7 @@ public class HelloApplicationRunListener implements SpringApplicationRunListener
 
     @Override
     public void started(ConfigurableApplicationContext context) {
-
+        System.out.println("HelloApplicationRunListener started......");
     }
 
     @Override
